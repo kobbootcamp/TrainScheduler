@@ -1,0 +1,88 @@
+@font-face {
+    font-family: DOTMATRI;
+    src: url(../fonts/DOTMATRI.TTF);
+}
+
+@font-face {
+    font-family: DOTMBold;
+    src: url(../fonts/DOTMBold.TTF);
+}
+
+#titleRow {
+font-family: "DOTMBold";
+font-size: 50px;
+text-align: center;
+padding-top: 20px;
+color: rgb(58, 58, 60);
+}
+
+#timerRow {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+border-radius: 25px;
+color:white;
+text-align: center;
+border-style: solid;
+border-width: 2px;
+background-color: darkcyan;
+/* background-color:rgb(237,233,232); */
+margin-top:20px;
+margin-bottom:20px;
+color:rgb(237,233,232);
+}
+
+body {
+    background-image: url("../images/techBackground3.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black;
+    background-size: cover;
+}
+
+#directions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#questionRow {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#box {
+   margin: 2%;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(178,202,192);
+    /* border-color: rgb(58, 58, 60); */
+    border-width: 4px;
+    background-color:rgb(237,233,232);
+    height: 550px;
+    }
+
+.btn {
+    background-color:rgb(51, 102, 153);
+}
+
+#gifHolder {
+    border-radius: 25px;
+    border-style:solid;
+    border-width:2px;
+    border-color:white;
+    margin: auto;
+}
+
+.results{
+    margin-top:40px;
+    font-family: "DOTMATRI";
+    font-size: 45px;
+    text-align: center;
+    color: rgb(58, 58, 60);
+}
+    
