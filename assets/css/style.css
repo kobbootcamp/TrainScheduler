@@ -1,22 +1,18 @@
 @font-face {
-    font-family: DOTMATRI;
-    src: url(../fonts/DOTMATRI.TTF);
+    font-family: SFAutomaton;
+    src: url(../fonts/SFAutomaton.ttf);
 }
 
-@font-face {
-    font-family: DOTMBold;
-    src: url(../fonts/DOTMBold.TTF);
+#train-table th,
+td {
+  display: inline-block;
+  width: 20%;
 }
 
-
-
-
-body {
-    background-image: url("../images/techBackground3.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-color: black;
-    background-size: cover;
+#title {
+    font-family: "SFAutomaton";
+    font-style: italic;
 }
+
 
     
