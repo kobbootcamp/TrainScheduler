@@ -9,10 +9,39 @@ td {
   width: 20%;
 }
 
+th {
+
+    display: inline-block;
+  width: 20%;  
+  font-weight: bold;
+}
 #title {
     font-family: "SFAutomaton";
     font-style: italic;
 }
 
 
-    
+#currentHeader {
+
+    background-color: #5A6B72;
+    color: white;
+    font-weight: bold;
+}
+
+#trainHeader {
+
+    /* background-color: #3E352E; */
+    background-color: #5A6B72;
+    color: white;
+    font-weight: bold;
+}
+
+#jumbo {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#bottomtext {
+    padding-top:.5rem;
+    margin-bottom: 0rem; 
+}

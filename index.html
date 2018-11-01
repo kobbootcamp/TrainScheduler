@@ -10,7 +10,7 @@
   <!-- CSS Reference-->
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,10 +30,10 @@
   <div class="container">
 
     <!-- Jumbotron -->
-    <div class="jumbotron" style="background-color: black; color: white">
+    <div class="jumbotron" id="jumbo" style="background-color: black; color: white">
       <h1 class="text-center" id="title">Bullet Scheduler</h1>
       <img src="assets/images/bullet.jpg" class="img-fluid rounded" alt="Responsive image">
-      <h3 class="text-center">Add Train Schedule Below</h3>
+      <h3 class="text-center" id="bottomtext">Add Train Schedule Below</h3>
     </div>
 
     <div class="row">
@@ -42,7 +42,7 @@
 
         <!-- Scheduled trains-->
         <div class="card mb-4">
-          <div class="card-header">Current Train Schedule</div>
+          <div class="card-header" id="currentHeader">Current Train Schedule</div>
           <div class="card-body">
             <table class="table table-sm table-hover" id="train-table">
               <thead>
@@ -66,7 +66,7 @@
       <div class="col-md-12">
         <!-- Add Train  -->
         <div class="card mb-4">
-          <div class="card-header">Add Train</div>
+          <div class="card-header" id="trainHeader">Add Train</div>
           <div class="card-body">
 
             <!-- Entry Form -->
